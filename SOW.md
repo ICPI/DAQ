@@ -58,28 +58,28 @@ quality as they pertain to the ICPI and the PEPFAR Data Community:
 -   Exporting, structuring, disseminating, and providing appropriate
     analytical datasets for use
 
-1.  **Data Documentation:** Takes lead in developing and maintaining
+3.  **Data Documentation:** Takes lead in developing and maintaining
     data dictionaries, release notes, data lineage diagrams, metadata
     catalogues, and other documentation for all PEPFAR data sources
     necessary for responsible data analysis.
 
-2.  **Data Use Best Practices:** Provides education related to OGAC
+4.  **Data Use Best Practices:** Provides education related to OGAC
     policies to guide the appropriate use, validation, access, storage,
     and distribution of PEPFAR data by the ICPI and PEPFAR Community,
     and works with ICPI Leadership to develop and disseminate best
     practices for data analysis.
 
-3.  **Training:** Provides training and resources to enable ICPI and
+5.  **Training:** Provides training and resources to enable ICPI and
     PEPFAR Data Community to apply data management best practices in
     their day-to-day work.
 
-4.  **Data Quality Assurance:** Takes lead in assessing and documenting
+6.  **Data Quality Assurance:** Takes lead in assessing and documenting
     the quality of data sources made available for ICPI analysis and,
     where necessary, identifying data quality issues and coordinating
     their resolution with all relevant data stewards, including but not
     limited to PRIME, DATIM/PDH developers, and SI advisors.
 
-5.  **Field Engagement:** Develop data management, processing, and
+7.  **Field Engagement:** Develop data management, processing, and
     repository solutions for generating integrated datasets (including
     MOH, partner, agency, etc.) for better analysis at different
     geographical hierarchies(i.e. priority subnational unit, DREAMS
