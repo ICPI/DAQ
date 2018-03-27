@@ -40,22 +40,22 @@ quality as they pertain to the ICPI and the PEPFAR Data Community:
     appropriate technology solutions for data access and management for
     use by ICPI members and PEPFAR Data Community, including:
 
--   Suggesting updates to existing technology solutions, such as
+    -   Suggesting updates to existing technology solutions, such as
     DATIM.org, the DATIM Genie, Panorama, and PEPFAR Data Hub(PDH)
 
--   Leveraging SQL and database expertise to export and provide large
+    -   Leveraging SQL and database expertise to export and provide large
     data files not obtainable via DATIM, Genie, FACTS Info, or Panorama
 
--   Aligning disjointed data structure by defining data architecture and
+    -   Aligning disjointed data structure by defining data architecture and
     varying data syntax for identifying data commonality between various
     data streams (i.e. geographical hierarchy, implementation
     mechanisms, reporting periods, data elements, etc.).
 
--   Identify complex data linkages; mapping between data streams and
+    -   Identify complex data linkages; mapping between data streams and
     data element definitions; producing calculated indicators and
     generating integrated data parameters across data streams.
 
--   Exporting, structuring, disseminating, and providing appropriate
+    -   Exporting, structuring, disseminating, and providing appropriate
     analytical datasets for use
 
 3.  **Data Documentation:** Takes lead in developing and maintaining
