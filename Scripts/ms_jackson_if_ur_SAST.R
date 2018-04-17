@@ -50,13 +50,39 @@ get_SAST <- function(filepath){
 
 # create mean and std_dev -------------------------------------------------
 
+sast_stats <- function(filepath) {
+
+mean_df <- test %>% 
+            gather(indicator, mean, HTC_TST, TX_CURR, VMMC_CIRC, KP_MAT, na.rm = TRUE) %>%
+            filter(mean > 0) %>% 
+            group_by(indicator) %>% 
+            summarise_at(vars("mean"), ~ mean(.,na.rm = TRUE))
+
+sd_df <- test %>% 
+  gather(indicator, sd, HTC_TST, TX_CURR, VMMC_CIRC, KP_MAT, na.rm = TRUE) %>%
+  filter(sd > 0) %>% 
+  group_by(indicator) %>% 
+  summarise_at(vars("sd"), ~ sd(.,na.rm = TRUE)) 
+
+threshold <- bind_cols(mean_df, sd_df)
+threshold <- full_join(mean_df, sd_df, by = "indicator") 
+
+ou <- get_ou(filepath)
+
+threshold <- threshold %>%
+  mutate_at(vars(mean, sd), ~ifelse(is.na(.),0,.)) %>% 
+  mutate(operatingunit = ou, 
+         hv_threshold = mean + sd) %>%
+  select(operatingunit, everything())  
+ 
+}
 
 
 
 test <- get_SAST(file.path(import, "FY18_SAST Calculator_KENYA_USAID_20170911.xlsx"))
 glimpse(test)
 
-
+filepath <- (file.path(import, "FY18_SAST Calculator_KENYA_USAID_20170911.xlsx"))
 
 
 
