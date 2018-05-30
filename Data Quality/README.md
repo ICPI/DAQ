@@ -1,1 +1,1 @@
-
+The DRT Training for Genie PowerPoint provides information about the Data Review Tool that is accessible in DATIM Genie. The PowerPoint covers an overview of the tool, the types of data quality checks that are included in the tool, how to access/download the tool, and additional resources related to PEPFAR Data Quality. 
